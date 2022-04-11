@@ -1,0 +1,75 @@
+{
+	"name": "AzureSqlProductoInput",
+	"properties": {
+		"description": "Tabla Input de pestaña Producto",
+		"linkedServiceName": {
+			"referenceName": "Salida_SQL_1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "varchar"
+			},
+			{
+				"name": "Nombre",
+				"type": "varchar"
+			},
+			{
+				"name": "Pais",
+				"type": "varchar"
+			},
+			{
+				"name": "edad",
+				"type": "varchar"
+			},
+			{
+				"name": "Ocupacion",
+				"type": "varchar"
+			},
+			{
+				"name": "Score",
+				"type": "varchar"
+			},
+			{
+				"name": "Salario net USD",
+				"type": "varchar"
+			},
+			{
+				"name": "Estado Civil",
+				"type": "varchar"
+			},
+			{
+				"name": "Estado",
+				"type": "varchar"
+			},
+			{
+				"name": "Fecha Inactividad",
+				"type": "varchar"
+			},
+			{
+				"name": "Genero",
+				"type": "varchar"
+			},
+			{
+				"name": "Device",
+				"type": "varchar"
+			},
+			{
+				"name": "Nivel Educativo",
+				"type": "varchar"
+			},
+			{
+				"name": "Carrera",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ProductoInput"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,43 @@
+{
+	"name": "Producto",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Producto",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "BBDD.xlsx",
+				"container": "imput-1"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "nombre",
+				"type": "String"
+			},
+			{
+				"name": "Valor",
+				"type": "String"
+			},
+			{
+				"name": "Cantidad Datos GB",
+				"type": "String"
+			},
+			{
+				"name": "Vigencia (dias)",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,79 @@
+{
+	"name": "Clientes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Clientes",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "BBDD.xlsx",
+				"container": "imput-1"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "Nombre",
+				"type": "String"
+			},
+			{
+				"name": "Pais",
+				"type": "String"
+			},
+			{
+				"name": "edad",
+				"type": "String"
+			},
+			{
+				"name": "Ocupacion",
+				"type": "String"
+			},
+			{
+				"name": "Score",
+				"type": "String"
+			},
+			{
+				"name": "Salario net USD",
+				"type": "String"
+			},
+			{
+				"name": "Estado Civil",
+				"type": "String"
+			},
+			{
+				"name": "Estado",
+				"type": "String"
+			},
+			{
+				"name": "Fecha Inactividad",
+				"type": "String"
+			},
+			{
+				"name": "Genero",
+				"type": "String"
+			},
+			{
+				"name": "Device",
+				"type": "String"
+			},
+			{
+				"name": "Nivel Educativo",
+				"type": "String"
+			},
+			{
+				"name": "Carrera",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

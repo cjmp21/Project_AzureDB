@@ -1,0 +1,9 @@
+{
+	"name": "ETLv1",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "519f70e6-138a-41dd-92a4-ce309673c42d",
+		"tenantId": "9744600e-3e04-492e-baa1-25ec245c6f10"
+	}
+}
