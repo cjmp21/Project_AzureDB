@@ -1,0 +1,33 @@
+-- Creacion de preguntas para la data
+
+-- 1. ¿Cuanto fue gasto mensual y acumulada en paquetes de datos? ¿Cuantas fueron las ventas de paquetes de datos mensuales y acumulada? ¿Compra diara promedio?
+      --> ¿Como es el ritmo de ventas de la empresa?
+	  --> lamina 1
+
+-- 2. ¿Que tipo de medio de pago se usa para comprar paquetes de datos? --> ¿Como me realizan los pagos? 
+	  --> lamina 1
+
+-- 3. ¿Cuanto fue el gasto y las ventas por paquete de dato (producto) en el trimestre y mensual? --> en que producto me enfoco para subir ventas
+	  --> lamina 2
+
+-- 4. ¿Cual es la vigencia promedio de los paquetes que compran? ¿Cuanta cantidad de datos vendidos en el trimestre? --> ¿Debo modificar mi oferta comercial?
+	  --> lamina 2
+
+-- 5. ¿Como son las ventas por pais? ¿Como son las ventas por genero? ¿Por edad? ¿Por profesion? ¿Por rango de salario? --> ¿En que mercado / segmento me enfoco?
+	  --> lamina 3
+
+-- 6. ¿Cuales son los clientes que me compran? --> ¿Que perfil de cliente me compra y que perfil no?
+      --> Hacer analisis inicial de segmentos --> mostrar gasto mensual y tipo de paquete comprado por segmento
+	  --> lamina 4 
+ 
+-- 7. Propuestas adicionales (operativas de área de datos):
+   7.1 Plantear como trabajo futuro, analisis de segmentación de clientes.   
+	  --> Para el analisis de segmentacion. Posibles variables: Salario, Edad, Genero, Gasto_promedio_mensual_ult3m (Principales) 
+	  --> Otras variables relevantes: Carrera (Ocupacion no por completitud), Compras_promedio_mensual_ult3m, mayor_producto_comprado_ult_3m, inactividad  
+   7.2 Revision de campo Estado (versus fecha de inactividad, invertido) y del Score (10% de registros son fuera de rango o nulos)
+   7.3 Falta un cliente en la Tabla clientes. Tiene registro de Compra pero no información de cliente. Se debe hace Due Diligence con el (si existe compra debe haber registro básico del cliente).
+	  --> dentro de lamina 5 (propuestas)
+
+-- Adicional / Innovación	  
+-- 8. Crear lamina de preguntas para la data a demanda de usuario (self service BI)
+	  --> lamina 7
